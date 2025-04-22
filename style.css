@@ -32,4 +32,19 @@ h1{
     width: 18vmin;
     background-color: chocolate;
     border: 2px soild black;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px black;
+    font-size: 8vmin;
+}
+
+#reset{
+    height: 6vh;
+    width: 16vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 5px 5px 10px black;
 }
