@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: aquamarine;
+    background-color: #f5ea8a;
     text-align: center;
 }
 
@@ -30,8 +30,8 @@ h1{
 .box{
     height: 18vmin;
     width: 18vmin;
-    background-color: chocolate;
-    border: 2px soild black;
+    background-color: #16164e;
+    border: 2px soild #00bcd4;
     border-radius: 1rem;
     box-shadow: 5px 5px 10px black;
     font-size: 8vmin;
@@ -42,9 +42,37 @@ h1{
     width: 16vh;
     font-size: 3vh;
     font-weight: bold;
-    background-color: brown;
+    background-color: #ce93d8;
     border: 2px solid black;
     border-radius: 1rem;
     color: white;
     box-shadow: 5px 5px 10px black;
+}
+
+#new-btn{
+    height: 6vh;
+    width: 18vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: #ce93d8;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+#msg{
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
 }
