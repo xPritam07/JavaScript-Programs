@@ -2,9 +2,34 @@
     margin: 0;
     padding: 0;
     background-color: lightgrey;
+    text-align: center;
 }
 
-header{
-    height: 10vh;
-    background-color: #171d52;
+.head-title{
+    height: 8vh;
+    background-color: #081b31;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: none;
+    display: inline-block;
+}
+
+.image-container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10vh;
 }
