@@ -1,7 +1,7 @@
 let userScore = 0;
 let comScore = 0;
 let result = document.querySelector(".result");
-const choices = document.querySelectorAll(".image");
+let choices = document.querySelectorAll(".image");
 let updateUserScore = document.querySelector("#score-usr");
 let updateCompScore = document.querySelector('#score-comp');
 
@@ -28,13 +28,16 @@ const compWin = () => {
 
 };
 
+const latestUserScore = () => {
+    updateUserScore.innerText = userScore;
+};
 
+const latestCompScore = () => {
+    updateCompScore.innerText = comScore;
+};
 
 const playGame = (userChoice) => {
-    console.log(`User Choice: ${userChoice}`);
     const compChoice = genCompChoice();
-    console.log(`Comp choice ${compChoice}`);
-
     if (userChoice === compChoice){
         gameDraw();
     } else {
@@ -64,6 +67,8 @@ const playGame = (userChoice) => {
             }; 
         }
     };
+    latestCompScore();
+    latestUserScore();
 };
 
 choices.forEach((choice) => {
