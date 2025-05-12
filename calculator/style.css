@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #BFD7EA;
+    align-items: center;
+}
+
+.heading{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
