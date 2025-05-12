@@ -2,13 +2,53 @@
     margin: 0;
     padding: 0;
     background-color: #BFD7EA;
-    align-items: center;
+    text-align: center;
 }
 
-.heading{
-    height: 5rem;
-    width: 100%;
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.cal-container{
+    height: 35rem;
+    width: 30rem;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #EEE0CB;
+    border-radius: 1rem;
+
+}
+
+.btn-container{
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: #BAA898;
+    flex-wrap: wrap;    
+}
+
+.rslt-container{
+    height: 8rem;
+    width: 30rem;
+    border: 2px solid black;
+    background-color: #EEE0CB;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+}
