@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #BFD7EA;
+    background-color: #ECE2D0;
     text-align: center;
 }
 
@@ -19,14 +19,14 @@ h1{
 
 .cal-container{
     height: 35rem;
-    width: 30rem;
+    width:28rem;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #EEE0CB;
+    background-color: #D5B9B2;
     border-radius: 1rem;
 
 }
@@ -40,15 +40,16 @@ h1{
     align-items: center;
     font-size: 2rem;
     border-radius: 1rem;
-    background-color: #BAA898;
-    flex-wrap: wrap;    
+    background-color: #BFB5AF;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px;
 }
 
 .rslt-container{
     height: 8rem;
-    width: 30rem;
+    width: 28rem;
     border: 2px solid black;
-    background-color: #EEE0CB;
+    background-color: #D5B9B2;
     border-radius: 1rem;
     flex-wrap: wrap;
 }
